@@ -129,8 +129,16 @@ nav .tab {
     padding: 5px;
 }
 
-nav .tab a {
+nav .tab:hover {
+    background-color: #1c94c4;
+}
+
+a {
     text-decoration: none;
+}
+
+a:visited {
+    color: black;
 }
 
 nav .nav-right {
@@ -141,19 +149,20 @@ nav .nav-right {
 
 nav .active {
     border-bottom: 2px solid black;
+    color: #1c94c4;
 }
 
 
 /* Container for the dynamically populated body */
 .container {
-    margin-top: 130px;
+    margin-top: 150px;
     width: 100%;
 }
 
 /* Ensures dynamic content is consistently placed */
 .container .slide {
     position: absolute;
-    height: 500px;
+    height: 480px;
     width: 100%;
     overflow: hidden;
 }
@@ -220,12 +229,14 @@ nav .active {
 
 /* Footer absolutely positioned at bottom of page */
 footer {
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     margin: 5px auto;
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 65px;
+    line-height: 2;
 }
 
 

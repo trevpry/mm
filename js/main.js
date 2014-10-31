@@ -10,61 +10,13 @@ $(document).ready(function(){
     var type = '../mm/partials/slides/type.html';
     var faq = '../mm/partials/slides/faq.html';
 
-    var location =
-        '<div class="slide" id="slide3">' +
-            '<div class = "content-top">' +
-                '<div class="panel panel-left">Some stuff here</div>' +
-                '<div class="panel panel-center-left">Some stuff here</div>' +
-                '<div class="panel panel-center-right">Some stuff here</div>' +
-                '<div class="panel panel-right">Some stuff here</div>' +
-            '</div>' +
-            '<div class="content-main">' +
-                '<div class="panel panel-left">Some stuff here</div>' +
-                '<div class="panel panel-center-left">Some stuff here</div>' +
-                '<div class="panel panel-center-right">Some stuff here</div>' +
-                '<div class="panel panel-right">Some stuff here</div>' +
-            '</div>' +
-        '</div>';
-
-    var type =
-        '<div class="slide" id="slide4">' +
-        '<div class = "content-top">' +
-        '<div class="panel panel-left">Some stuff here</div>' +
-        '<div class="panel panel-center-left">Some stuff here</div>' +
-        '<div class="panel panel-center-right">Some stuff here</div>' +
-        '<div class="panel panel-right">Some stuff here</div>' +
-        '</div>' +
-        '<div class="content-main">' +
-        '<div class="panel panel-left">Some stuff here</div>' +
-        '<div class="panel panel-center-left">Some stuff here</div>' +
-        '<div class="panel panel-center-right">Some stuff here</div>' +
-        '<div class="panel panel-right">Some stuff here</div>' +
-        '</div>' +
-        '</div>';
-
-    var faq =
-        '<div class="slide" id="slide5">' +
-        '<div class = "content-top">' +
-        '<div class="panel panel-left">Some stuff here</div>' +
-        '<div class="panel panel-center-left">Some stuff here</div>' +
-        '<div class="panel panel-center-right">Some stuff here</div>' +
-        '<div class="panel panel-right">Some stuff here</div>' +
-        '</div>' +
-        '<div class="content-main">' +
-        '<div class="panel panel-left">Some stuff here</div>' +
-        '<div class="panel panel-center-left">Some stuff here</div>' +
-        '<div class="panel panel-center-right">Some stuff here</div>' +
-        '<div class="panel panel-right">Some stuff here</div>' +
-        '</div>' +
-        '</div>';
-
     var prev = 0;
     var current;
     var hide_dir = 'right';
     var show_dir = 'left';
 
     //Speed of horizontal transition in milliseconds
-    var speed = 1000;
+    var speed = 500;
 
     //Corresponds to variables with HTML content. Must be in the same order as the tabs.
     var pages = [
