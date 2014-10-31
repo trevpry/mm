@@ -135,6 +135,7 @@ nav .tab:hover {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
@@ -162,7 +163,7 @@ nav .active {
 /* Ensures dynamic content is consistently placed */
 .container .slide {
     position: absolute;
-    height: 480px;
+    height: 68%;
     width: 100%;
     overflow: hidden;
 }
